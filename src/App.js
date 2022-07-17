@@ -47,19 +47,6 @@ const StepSeven = ({ goToNext }) => (
     <button onClick={() => goToNext({ weight: "190" })}></button>
   </>
 );
-const StepEight = ({ goToNext }) => (
-  <>
-    <h1>Step 8</h1>
-    <button onClick={() => goToNext({ status: "maried" })}></button>
-  </>
-);
-
-const StepNine = ({ goToNext }) => (
-  <>
-    <h1>Step 9</h1>
-    <button onClick={() => goToNext({ salary: "200" })}></button>
-  </>
-);
 
 function App() {
   const [onboardingData, setOnboardingData] = useState({});
